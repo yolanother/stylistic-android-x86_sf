@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
+  <remote  name="doubtech"
+           fetch="git://github.com/yolanother/" />
   <remote  name="aosp"
            fetch="git://android-x86.git.sf.net/gitroot/android-x86/korg/" />
   <remote  name="x86"
@@ -45,7 +46,6 @@
   <project path="hardware/libhardware" name="platform/hardware/libhardware" remote="x86" revision="ics-x86" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" remote="x86" revision="ics-x86" />
   <project path="hardware/liblights" name="platform/hardware/liblights" remote="x86" revision="ics-x86" />
-  <project path="hardware/libsensors" name="platform/hardware/libsensors" remote="x86" revision="ics-x86" />
   <project path="hardware/ril" name="platform/hardware/ril" remote="x86" revision="ics-x86" />
   <project path="packages/apps/AndroidTerm" name="platform/packages/apps/AndroidTerm" remote="x86" revision="ics-x86" />
   <project path="packages/apps/FileManager" name="platform/packages/apps/FileManager" remote="x86" revision="ics-x86" />
@@ -238,5 +238,5 @@
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
-
+  <project path="device/fujitsu/stylistic" name="android-x86-fujitsu-stylistic-stefan_base" remote="doubtech" />
 </manifest>
