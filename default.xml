@@ -239,5 +239,5 @@
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
-  <project path="device/fujitsu/stylistic" name="android-x86-fujitsu-stylistic-stefan_base" remote="doubtech" />
+  <project path="device/fujitsu/stylistic" name="android-x86-fujitsu-stylistic-stefan_base" remote="doubtech" revision="fujitsu-ics-x86" />
 </manifest>
